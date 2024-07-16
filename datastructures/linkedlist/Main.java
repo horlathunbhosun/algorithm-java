@@ -15,7 +15,6 @@ public class Main {
 //        myLinkedList.getTail();
 //        myLinkedList.getLength();
         myLinkedList.set(1,4);
-
         //System.out.println(myLinkedList.get(2).value);
         //myLinkedList.prepend(1);
 
