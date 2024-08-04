@@ -8,7 +8,6 @@ import java.util.Map;
  * @created 15/05/2024/05/2024 - 12:38
  */
 public class TwoSum {
-
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<>();
@@ -21,10 +20,9 @@ public class TwoSum {
                 result[1] = i;
                 return result;
             }
-
             map.put(nums[i], i);
         }
-
+        //the code is not expected to reach here
         return result;
     }
 
