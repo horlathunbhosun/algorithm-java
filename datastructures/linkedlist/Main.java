@@ -11,7 +11,6 @@ public class Main {
         myLinkedList.append(3);
         myLinkedList.append(23);
         myLinkedList.append(7);
-
         myLinkedList.set(1,4);
 
 
