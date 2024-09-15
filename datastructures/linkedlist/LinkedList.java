@@ -42,6 +42,8 @@ public class LinkedList {
 
 
 
+    //removelast is O
+
    public Node removeLast(){
          if (length == 0) {
              return null;
@@ -73,7 +75,6 @@ public class LinkedList {
         }
         length++;
     }
-
     public Node removeFirst() {
         if (length == 0) {
             return null;
